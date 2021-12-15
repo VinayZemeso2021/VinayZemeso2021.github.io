@@ -1,39 +1,34 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Home page</title>
-        <link href="homepage.css" type="text/css" rel="stylesheet">
-    </head>
-    <body class="home">
-        <nav>
-            <ul id="tab-section">
-                    <li><a href="./homepage.html" class="tablink" onclick="changer()">Home</a></li>
-                    <li><a href="./abountme.html" class="tablink" onclick="changer()">About Me</a></li>
-                    <li><a href="./contactme.html" class="tablink" onclick="changer()">Contact Me</a></li>
-                    <li><a href="./gallery.html" class="tablink" onclick="changer()">Gallery</a></li>
-            </ul>
-        </nav>
-        <section class="about-section">
-            <div id="introduction">
-                <h2 class="heading">Metaverse</h2>
-            </div>
-    
-            <div id="content">
-                <p class="home-para">The metaverse has been a hot topic of conversation recently, with Facebook and Microsoft both staking claims. But what is the metaverse? And when will it get here?</p>
-                <br>
-                <h2 class="heading">What is the metaverse?</h2>
-                <p class="home-para">It's a combination of multiple elements of technology, including virtual reality, augmented reality and video where users "live" within a digital universe. Supporters of the metaverse envision its users working, playing and staying connected with friends through everything from concerts and conferences to virtual trips around to the world.
-                </p>
-                <br>
-            </div>
-        </section>
-        <script>
-            function changer() {
-                tablinks = document.getElementsByClassName("tablink");
-                for(i = 0; i < x.length; i++) {
-                    tablinks[i].className = tablinks[i].className.replace("tablink", " ");
-                }
-            }
-        </script>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./css/Home.css" rel='stylesheet'>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a class ="curennt" href="index.html">Home</a></li>
+            <li><a href="HTML/About.html">About Us</a></li>
+            <li><a href="HTML/Gallary.html">Gallery</a></li>
+            <li><a href="HTML/contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <br><br>
+<div class="intro">
+    <div class="intro-text">
+      <h1 style="font-size:50px">Welcome to My Website!!</h1>
+      <h2> I'm a Software Engineer</h2>
+      <button>Hire me</button>
+    </div>
+  </div>
+  <br><br>
+  <footer>
+    <p>Author: Shubham Raut<br>
+    <a href="mailto:xyz@gmail.com">xyz@gmail.com</a></p>
+  </footer>
+</body>
 </html>
